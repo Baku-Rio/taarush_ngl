@@ -32,7 +32,7 @@ def run_insta_code():
         return redirect("https://ngl-link-tj6y.onrender.com/taarushaaah")
 
 
-@app.route("/ananxya_m", methods=["POST", "GET"])
+@app.route("/taarushaaah", methods=["POST", "GET"])
 def run_ngl_code():
     if request.method == "POST":
         print(request.form)
